@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
+let quanity= 5;
+let price = 20;
+let date = "Aug. 15, 2015";
+const storeName= "MARTY-Mart";
+let purchaseSummary = name + " bought " + quanity + " items for $" + price + " on " + date + " at " + storeName + ".";
 
-console.log(d);
+console.log(purchaseSummary);
